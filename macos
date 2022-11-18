@@ -1,2 +1,0 @@
-echo "Press CTRL+C to stop running qemu"
-qemu-system-ppc -hda ../usr/etc/macOS.qcow2 -L pc-bios -M mac99 -boot c -cpu ppc32 -m 512 -vnc localhost:0
